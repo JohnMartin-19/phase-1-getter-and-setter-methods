@@ -1,6 +1,6 @@
 // Add your Circle class here
 class circle{
-    #pi
+    #pi = 3.14
     constructor(radius){
         this.radius = radius
     }
@@ -11,3 +11,6 @@ class circle{
         console.log (this.#pi * this.radius * this.radius)
     }
 }
+
+const num = new circle(7)
+num.area
